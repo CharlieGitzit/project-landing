@@ -39,12 +39,12 @@ h1 {
 
 .action-container {
     background-color: #3882f6;
-    color: #f9f9f9;
+    color: #f9f9f8;
 }
 
 .second {
     background-color: #3882f6;
-    border: 1px solid #f9f9f9;
+    border: 1px solid #f9f9f8;
     padding: 8px 25px;
     color: #f9faf8;
     border-radius: 8px;
@@ -55,4 +55,13 @@ h1 {
     font-style: italic;
     font-size: 36px;
     color: #1f2937;
+}
+
+.footer p {
+    color: #f9faf8
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
 }
