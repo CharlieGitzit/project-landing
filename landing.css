@@ -51,11 +51,22 @@ h1 {
 
 .quote-section-container {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    flex-wrap: wrap;
+}
+
+h6 {
+    margin-top: 20px;
 }
 
 .border-container {
     background-color: #f9f9f8;
-    padding: 65px;
+    padding: 85px;
 }
 
 .action-container {
@@ -64,7 +75,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 0;
+    padding: 40px 35px;
     gap: 18px;
     border-radius: 12px;
 }
@@ -76,12 +87,6 @@ h1 {
     color: #f9faf8;
     border-radius: 8px;
     font-weight: bold;
-}
-
-.quote-section-container p {
-    font-style: italic;
-    font-size: 36px;
-    color: #1f2937;
 }
 
 .footer {
