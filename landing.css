@@ -49,10 +49,33 @@ h1 {
     border: none;
 }
 
+.one, .two, .three, .four {
+    height: 165px;
+    width: 165px;
+    border: 7px solid #3882f6;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 55px 125px 125px;
+    gap: 18px;
+}
+
+.info {
+    text-align: center;
+    margin: 30px 0 -20px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
 .quote-section-container {
     background-color: #e5e7eb;
     display: flex;
     justify-content: center;
+    text-align: center;
     padding: 80px;
     font-size: 36px;
     font-style: italic;
