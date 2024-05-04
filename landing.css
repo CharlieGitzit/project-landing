@@ -60,8 +60,11 @@ h1 {
     flex-wrap: wrap;
 }
 
-h6 {
+.thor {
     margin-top: 20px;
+    box-shadow: #8d8b8b 8px 8px 8px 8px;
+    border-radius: 8px;
+    padding: 6px 10px;
 }
 
 .border-container {
@@ -78,6 +81,7 @@ h6 {
     padding: 40px 35px;
     gap: 18px;
     border-radius: 12px;
+    box-shadow: #97baf1 12px 12px 12px 12px;
 }
 
 .second {
