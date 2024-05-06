@@ -12,12 +12,24 @@ body {
 .header-logo-text {
     display: flex;
     justify-content: space-around;
-    padding: 12px;
+    padding: 18px;
+}
+
+.uno {
+    color: rgb(247, 45, 9);
+}
+
+.tres {
+    color: rgb(61, 61, 223);
 }
 
 .list {
     display: flex;
     gap: 8px;
+}
+
+.header-container {
+    padding-bottom: 7em;
 }
 
 .header-container, .footer {
@@ -26,8 +38,8 @@ body {
 
 .hero-main-text {
     color: #f9faf8;
-    font-size: 48px;
-    font-weight: bolder;
+    font-size: 42px;
+    font-weight: bold;
 }
 
 .hero-secondary-text {
@@ -40,13 +52,33 @@ h1 {
     color: #f9faf8;
 }
 
+.placeholder {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    padding-left: 10em;
+    padding-top: 2.5em;
+    margin-top: 1.6em;
+    margin-bottom: -12em;
+    width: 35%;
+}
+
 .first {
     background-color: #3882f6;
-    padding: 8px 25px;
+    padding: 14px 25px;
     color: #f9faf8;
     border-radius: 8px;
     font-weight: bold;
     border: none;
+    width: 60%;
+    font-size: 16px;
+}
+
+.image {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 10.4em;
 }
 
 .one, .two, .three, .four {
@@ -82,7 +114,7 @@ h1 {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 80px;
+    padding: 80px 130px;
     font-size: 25px;
     font-style: italic;
     color: #1f2937;
@@ -107,15 +139,16 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 35px;
+    padding: 40px 50px;
     gap: 18px;
     border-radius: 12px;
     box-shadow: #97baf1 12px 12px 12px 12px;
+    margin: 0 4em;
 }
 
 .second {
     background-color: #3882f6;
-    border: 1px solid #f9f9f8;
+    border: 3px solid #f9f9f8;
     padding: 8px 25px;
     color: #f9faf8;
     border-radius: 8px;
